@@ -1,0 +1,36 @@
+
+
+export class ErrorCodes {
+ 
+    static BAD_REQUEST = 400; 
+    static UNAUTHORIZED = 401;
+    static PAYMENT_REQUIRED = 402;
+    static FORBIDDEN = 403;
+    static NOT_FOUND = 404;
+    static METHODE_NOT_ALLOWED = 405;
+    static NOT_ACCEPTABLE = 406;
+    static PROXY_AUTHENTICATION_REQUIRED = 407;
+    static REQUEST_TIMEOUT = 408;
+    static CONFLICT = 409;
+    static GONE = 410;
+    static LENGTH_REQUIRED = 411;
+    static PRECONDITION_FAILED = 412 ;
+    static REQUEST_ENTITY_TOO_LARGE = 413;
+    static REQUEST_URL_TOO_LONG = 414;
+    static UNSUPPORTED_MEDIA_TYPE = 415;
+    static REQUESTED_RANGE_NOT_SATISFIABLE = 416;
+    static EXPECTATION_FAILED = 417;
+    static UNPROCESSABLE_ENTITY = 422;
+    static LOCKED = 423;
+    static FAILED_DEPENDENCY = 424;
+    static UNAVAILABLE_FOR_LEGAL_REASONS = 451; 
+
+    static INTERNAL_SERVER_ERROR = 500;
+    static NOT_IMPLEMENTED = 501;
+    static BAD_GATEWAY = 502;
+    static SERVICE_UNAVAILABLE = 503;
+    static GATEWAY_TIMEOUT = 504;
+    static HTTP_VERSION_NOT_SUPPORTED = 505;   
+
+    static VALUE_ALREADY_EXISTS = 506
+}

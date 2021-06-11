@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "f6380f3e-9a1c-4529-ad31-31596f4e04fd",
+		"name": "todoapp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n  \"name\": \"chiled 1\",\n  \"parentId\" : \"ebc2c2c0-9db0-4d0c-8150-4ab3438827ed\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://172.19.0.1:3001/todoapp",
+					"protocol": "http",
+					"host": [
+						"172",
+						"19",
+						"0",
+						"1"
+					],
+					"port": "3001",
+					"path": [
+						"todoapp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://172.19.0.1:3001/todoapp",
+					"protocol": "http",
+					"host": [
+						"172",
+						"19",
+						"0",
+						"1"
+					],
+					"port": "3001",
+					"path": [
+						"todoapp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://172.19.0.1:3001/todoapp/c9fccc1b-0f3c-497b-a9dd-5072c77efaf7",
+					"protocol": "http",
+					"host": [
+						"172",
+						"19",
+						"0",
+						"1"
+					],
+					"port": "3001",
+					"path": [
+						"todoapp",
+						"c9fccc1b-0f3c-497b-a9dd-5072c77efaf7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
